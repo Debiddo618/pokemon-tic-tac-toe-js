@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/app.js"></script>
+  <title>Poke-Tic-Tac-Toe</title>
+</head>
+<body>
+  <h1>Poke-Tic-Tac-Toe</h1>
+  <h2 id="message">Message</h2>
+
+  <div class="container">
+
+    <div class="pokemon1"></div>
+
+    <section class="board">
+      <div class="sqr" id="0"></div>
+      <div class="sqr" id="1"></div>
+      <div class="sqr" id="2"></div>
+      <div class="sqr" id="3"></div>
+      <div class="sqr" id="4"></div>
+      <div class="sqr" id="5"></div>
+      <div class="sqr" id="6"></div>
+      <div class="sqr" id="7"></div>
+      <div class="sqr" id="8"></div>
+    </section>
+
+    <div class="pokemon2"></div>
+  </div>
+
+  <div class="buttons">
+    <button class="reset">Reset</button>
+    <button class="fetch-pokemon">Get Random Pokemons</button>
+    <button class="stop">Play Music</button>
+  </div>
+  <div>
+    <audio id="audio" autoplay loop>
+      <source src="./audio/biketheme.mp3">
+    </audio>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color:#FAF0D7;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family:"Roboto",sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-size: 0px;
+  }
+
+  .reset, .fetch-pokemon, .play, .stop{
+    padding: 10px;
+    margin-top: 20px;
+    background-color:#007bff;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  img{
+    width: 200px;
+    aspect-ratio: 1/1;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .pokemon1, .pokemon2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    aspect-ratio: 1/1;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
