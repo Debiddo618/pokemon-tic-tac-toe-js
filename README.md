@@ -24,5 +24,5 @@ Here are some potential improvements to the project:
 
 - Add AI player
 - Allow players to pick their own Pokemon
-- Score kepping across games
+- Score keeping across games
 - Compatibility with mobile devices
